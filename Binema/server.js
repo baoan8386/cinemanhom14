@@ -42,8 +42,8 @@ module.exports = app;
 var dbConn = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'password',
-    database: 'nodeJsApi'
+    password: '',
+    database: 'webphim'
 });
 dbConn.connect();
 
